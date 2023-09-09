@@ -1,0 +1,31 @@
+.bulbcontainer {
+    width: 400px;
+    margin: 20px auto;
+    margin-bottom: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    border: 2px solid yellow;
+    position: relative;
+}
+.bulbcontainer img {
+    height: 400px;
+}
+.bulbcontainer button {
+    height: 100px;
+    width: 60px;
+    border: none;
+    background-color: aquamarine;
+    color: white;
+    position: absolute;
+    bottom: 30px;
+    right: 20px;
+    font-size: 28px;
+    font-weight: 800;
+    box-shadow: 3px 3px 3px rgba(128, 128, 128, 0.3);
+    cursor: pointer;
+}
+.bulbcontainer button:active {
+    transform: scale(110%);
+    background-color: rgb(127, 255, 212, 0.5);
+}
